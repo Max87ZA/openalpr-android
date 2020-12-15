@@ -6,14 +6,14 @@ package org.openalpr;
 public class AlprJNIWrapper implements OpenALPR {
 
     static {
-        System.loadLibrary("openalpr-native");
-        // System.loadLibrary("pngt");
-        // System.loadLibrary("jpgt");
-        // System.loadLibrary("lept");
-        // System.loadLibrary("tess");
-        // System.loadLibrary("opencv_java3");
-        // System.loadLibrary("openalpr");
-        // System.loadLibrary("openalprjni");
+        // System.loadLibrary("openalpr-native");
+        System.loadLibrary("pngt");
+        System.loadLibrary("jpgt");
+        System.loadLibrary("lept");
+        System.loadLibrary("tess");
+        System.loadLibrary("opencv_java3");
+        System.loadLibrary("openalpr");
+        System.loadLibrary("openalprjni");
     }
 
     /* (non-Javadoc)
